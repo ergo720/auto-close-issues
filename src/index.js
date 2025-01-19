@@ -109,6 +109,7 @@ const getIssueCloseMessage = () => {
     owner: issue.owner,
     repo: issue.repo,
     issue_number: issue.number,
-    state: "closed"
+    state: "closed",
+    state_reason: "not_planned"
   });
 })();
